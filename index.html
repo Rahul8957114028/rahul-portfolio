@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahul Kumar Prajapati | Portfolio</title>
+    
+    <!-- Google Fonts for clean and modern typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons for attractive badges and buttons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Link to external CSS stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ==============================================
+         1. NAVIGATION BAR (Header)
+         ============================================== -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#home" class="logo">
+                <span class="logo-bracket">&lt;</span>Rahul<span class="logo-dot">.dev</span><span class="logo-bracket">/&gt;</span>
+            </a>
+
+            <!-- Navigation Links -->
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <!-- Mobile Hamburger Menu Button -->
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- ==============================================
+             2. HERO SECTION (Introduction & Photo)
+             ============================================== -->
+        <section id="home" class="hero section">
+            <div class="container hero-container">
+                <!-- Left Column: Introduction Text -->
+                <div class="hero-content">
+                    <div class="badge-pill">
+                        <i class="fa-solid fa-graduation-cap"></i> B.Tech CSE (2nd Year)
+                    </div>
+                    <h1 class="hero-title">
+                        Hi, I'm <br>
+                        <span class="gradient-text">Rahul Kumar Prajapati</span>
+                    </h1>
+                    <h3 class="hero-subtitle">Aspiring Software Engineer & Web Developer</h3>
+                    <p class="hero-description">
+                        Welcome to my personal portfolio! I am currently pursuing my B.Tech in Computer Science and Engineering. 
+                        This is my 1st college mini-project built using HTML5 and CSS3 to showcase my academic journey, technical skills, and passion for programming.
+                    </p>
+                    
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <i class="fa-solid fa-code"></i> View Projects
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <i class="fa-solid fa-paper-plane"></i> Contact Me
+                        </a>
+                    </div>
+
+                    <!-- Social Quick Links -->
+                    <div class="hero-socials">
+                        <a href="https://github.com" target="_blank" title="GitHub" class="social-icon">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com" target="_blank" title="LinkedIn" class="social-icon">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="mailto:rahulkumar@example.com" title="Email Me" class="social-icon">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Right Column: Profile Photo Card -->
+                <div class="hero-image-wrapper">
+                    <div class="image-card">
+                        <div class="image-glow"></div>
+                        <div class="image-frame">
+                            <img src="images/rahul_profile.jpg" alt="Rahul Kumar Prajapati" class="profile-photo">
+                        </div>
+                        <div class="floating-badge badge-top">
+                            <i class="fa-solid fa-laptop-code"></i>
+                            <span>B.Tech CSE</span>
+                        </div>
+                        <div class="floating-badge badge-bottom">
+                            <i class="fa-solid fa-star"></i>
+                            <span>1st Year: 7.5 CGPA</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==============================================
+             3. ABOUT ME SECTION
+             ============================================== -->
+        <section id="about" class="about section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">About Me</span>
+                    <h2 class="section-title">Know More About Who I Am</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-card about-summary">
+                        <h3>A Passionate Tech Student</h3>
+                        <p>
+                            Hello! I am <strong>Rahul Kumar Prajapati</strong>, a dedicated 2nd-year B.Tech Computer Science and Engineering student. 
+                            I have a strong interest in computer technology, software development, and web design.
+                        </p>
+                        <p>
+                            I enjoy solving logical problems, understanding how computers work behind the scenes, and crafting user-friendly web pages. 
+                            As a continuous learner, I actively explore core subjects like Data Structures, C/C++ programming, and modern web development basics.
+                        </p>
+                        <p class="highlight-quote">
+                            <i class="fa-solid fa-quote-left"></i>
+                            "Learning by building is my motto. Every line of code brings new understanding."
+                        </p>
+                    </div>
+
+                    <!-- Quick Details Info Card -->
+                    <div class="about-card about-details">
+                        <h3>Quick Information</h3>
+                        <ul class="details-list">
+                            <li>
+                                <span class="detail-label"><i class="fa-solid fa-user"></i> Full Name:</span>
+                                <span class="detail-val">Rahul Kumar Prajapati</span>
+                            </li>
+                            <li>
+                                <span class="detail-label"><i class="fa-solid fa-graduation-cap"></i> Degree:</span>
+                                <span class="detail-val">B.Tech - Computer Science & Engg.</span>
+                            </li>
+                            <li>
+                                <span class="detail-label"><i class="fa-solid fa-calendar-check"></i> Current Status:</span>
+                                <span class="detail-val">2nd Year (3rd Semester)</span>
+                            </li>
+                            <li>
+                                <span class="detail-label"><i class="fa-solid fa-award"></i> 1st Year CGPA:</span>
+                                <span class="detail-val score-highlight">7.5 CGPA</span>
+                            </li>
+                            <li>
+                                <span class="detail-label"><i class="fa-solid fa-location-dot"></i> Country:</span>
+                                <span class="detail-val">India</span>
+                            </li>
+                            <li>
+                                <span class="detail-label"><i class="fa-solid fa-circle-check"></i> Project Type:</span>
+                                <span class="detail-val">College Mini Project #1</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==============================================
+             4. EDUCATION SECTION (Highlighting Marks)
+             ============================================== -->
+        <section id="education" class="education section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Academics</span>
+                    <h2 class="section-title">Educational Qualifications</h2>
+                    <div class="section-line"></div>
+                    <p class="section-subtitle">A consistent track record of hard work and dedication</p>
+                </div>
+
+                <div class="education-grid">
+                    <!-- Card 1: B.Tech CSE -->
+                    <div class="edu-card featured-edu">
+                        <div class="edu-top">
+                            <div class="edu-icon">
+                                <i class="fa-solid fa-user-graduate"></i>
+                            </div>
+                            <span class="edu-tag current">Currently Pursuing</span>
+                        </div>
+                        <h3 class="edu-degree">Bachelor of Technology (B.Tech)</h3>
+                        <h4 class="edu-branch">Computer Science & Engineering (CSE)</h4>
+                        <p class="edu-timeline"><i class="fa-regular fa-calendar"></i> 2nd Year (Current)</p>
+                        
+                        <div class="edu-score-box">
+                            <span class="score-label">1st Year Academic Score</span>
+                            <span class="score-number">7.5 CGPA</span>
+                        </div>
+
+                        <p class="edu-desc">
+                            Focusing on core computer science foundations, algorithm design, object-oriented concepts, and practical web technologies.
+                        </p>
+                    </div>
+
+                    <!-- Card 2: 12th Standard -->
+                    <div class="edu-card">
+                        <div class="edu-top">
+                            <div class="edu-icon">
+                                <i class="fa-solid fa-school"></i>
+                            </div>
+                            <span class="edu-tag completed">Completed</span>
+                        </div>
+                        <h3 class="edu-degree">Higher Secondary (Class XII)</h3>
+                        <h4 class="edu-branch">Science Stream (PCM)</h4>
+                        <p class="edu-timeline"><i class="fa-regular fa-calendar"></i> Senior Secondary Board</p>
+                        
+                        <div class="edu-score-box">
+                            <span class="score-label">Board Examination Score</span>
+                            <span class="score-number">81.3%</span>
+                        </div>
+
+                        <p class="edu-desc">
+                            Successfully passed with distinction. Built a strong foundation in Mathematics, Physics, Chemistry, and analytical thinking.
+                        </p>
+                    </div>
+
+                    <!-- Card 3: 10th Standard -->
+                    <div class="edu-card">
+                        <div class="edu-top">
+                            <div class="edu-icon">
+                                <i class="fa-solid fa-book-open"></i>
+                            </div>
+                            <span class="edu-tag completed">Completed</span>
+                        </div>
+                        <h3 class="edu-degree">Secondary School (Class X)</h3>
+                        <h4 class="edu-branch">High School General Board</h4>
+                        <p class="edu-timeline"><i class="fa-regular fa-calendar"></i> Secondary Board</p>
+                        
+                        <div class="edu-score-box">
+                            <span class="score-label">Board Examination Score</span>
+                            <span class="score-number">75.8%</span>
+                        </div>
+
+                        <p class="edu-desc">
+                            Completed secondary education with first division, developing early interest in science, mathematics, and computers.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==============================================
+             5. SKILLS SECTION
+             ============================================== -->
+        <section id="skills" class="skills section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">My Abilities</span>
+                    <h2 class="section-title">Technical & Personal Skills</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Technical Skills -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <i class="fa-solid fa-laptop-code"></i>
+                            <h3>Technical Skills</h3>
+                        </div>
+
+                        <div class="skill-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>HTML5 (Hypertext Markup Language)</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress progress-html" style="width: 85%;"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>CSS3 (Styling & Responsive Design)</span>
+                                    <span>75%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress progress-css" style="width: 75%;"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>C Programming Language</span>
+                                    <span>80%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress progress-c" style="width: 80%;"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>C++ & Object-Oriented Basics</span>
+                                    <span>70%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress progress-cpp" style="width: 70%;"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>Data Structures Fundamentals</span>
+                                    <span>65%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress progress-dsa" style="width: 65%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tools & Soft Skills -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <i class="fa-solid fa-toolbox"></i>
+                            <h3>Tools & Professional Skills</h3>
+                        </div>
+
+                        <div class="tools-tags">
+                            <div class="tool-tag">
+                                <i class="fa-brands fa-git-alt"></i> Git (Version Control)
+                            </div>
+                            <div class="tool-tag">
+                                <i class="fa-brands fa-github"></i> GitHub & GitHub Pages
+                            </div>
+                            <div class="tool-tag">
+                                <i class="fa-solid fa-code"></i> Visual Studio Code (VS Code)
+                            </div>
+                            <div class="tool-tag">
+                                <i class="fa-solid fa-terminal"></i> Command Line Basics
+                            </div>
+                        </div>
+
+                        <h4 class="sub-category-title">Soft Skills & Competencies</h4>
+                        <div class="soft-skills-grid">
+                            <div class="soft-skill-badge">
+                                <i class="fa-solid fa-lightbulb"></i>
+                                <span>Problem Solving</span>
+                            </div>
+                            <div class="soft-skill-badge">
+                                <i class="fa-solid fa-users"></i>
+                                <span>Team Collaboration</span>
+                            </div>
+                            <div class="soft-skill-badge">
+                                <i class="fa-solid fa-comments"></i>
+                                <span>Good Communication</span>
+                            </div>
+                            <div class="soft-skill-badge">
+                                <i class="fa-solid fa-clock"></i>
+                                <span>Time Management</span>
+                            </div>
+                            <div class="soft-skill-badge">
+                                <i class="fa-solid fa-brain"></i>
+                                <span>Eager to Learn</span>
+                            </div>
+                            <div class="soft-skill-badge">
+                                <i class="fa-solid fa-check-double"></i>
+                                <span>Attention to Detail</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==============================================
+             6. PROJECTS SECTION (College Mini-Project)
+             ============================================== -->
+        <section id="projects" class="projects section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Portfolio Work</span>
+                    <h2 class="section-title">Projects & Practical Work</h2>
+                    <div class="section-line"></div>
+                    <p class="section-subtitle">Projects developed during my computer science curriculum</p>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1: Personal Portfolio (Current Mini Project) -->
+                    <div class="project-card featured-project">
+                        <div class="project-badge">1st College Project</div>
+                        <div class="project-header">
+                            <i class="fa-solid fa-address-card project-icon"></i>
+                            <h3>Personal Portfolio Website</h3>
+                        </div>
+                        <p class="project-desc">
+                            A responsive personal portfolio website designed from scratch to represent academic accomplishments, 
+                            skills, and projects. Implements modern CSS flexbox, grid, semantic HTML5, and responsive mobile layout.
+                        </p>
+                        <div class="project-tech-tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>Responsive UI</span>
+                            <span>GitHub Pages</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#home" class="project-btn"><i class="fa-solid fa-eye"></i> Live Demo (Here)</a>
+                            <a href="https://github.com" target="_blank" class="project-btn outline"><i class="fa-brands fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+
+                    <!-- Project 2: Student Management System in C -->
+                    <div class="project-card">
+                        <div class="project-header">
+                            <i class="fa-solid fa-database project-icon"></i>
+                            <h3>Student Record System</h3>
+                        </div>
+                        <p class="project-desc">
+                            A console-based application written in C to record student details, calculate total marks, percentages, and manage grades. 
+                            Utilizes structures, pointers, and file operations in C.
+                        </p>
+                        <div class="project-tech-tags">
+                            <span>C Language</span>
+                            <span>Data Structures</span>
+                            <span>File Handling</span>
+                        </div>
+                        <div class="project-links">
+                            <span class="project-status"><i class="fa-solid fa-check"></i> Academic Project</span>
+                        </div>
+                    </div>
+
+                    <!-- Project 3: Interactive Web Calculator / Landing Page -->
+                    <div class="project-card">
+                        <div class="project-header">
+                            <i class="fa-solid fa-calculator project-icon"></i>
+                            <h3>Interactive Web Calculator</h3>
+                        </div>
+                        <p class="project-desc">
+                            A clean and intuitive calculator built with web technologies supporting standard arithmetic operations 
+                            with a user-friendly and responsive user interface.
+                        </p>
+                        <div class="project-tech-tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <span class="project-status"><i class="fa-solid fa-code"></i> Mini Project</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==============================================
+             7. CONTACT SECTION
+             ============================================== -->
+        <section id="contact" class="contact section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Connect</span>
+                    <h2 class="section-title">Get In Touch</h2>
+                    <div class="section-line"></div>
+                    <p class="section-subtitle">Feel free to reach out for college projects, collaborations, or questions!</p>
+                </div>
+
+                <div class="contact-grid">
+                    <!-- Left: Contact Details -->
+                    <div class="contact-info-card">
+                        <h3>Contact Information</h3>
+                        <p>You can connect with me directly via email or through my social profiles:</p>
+
+                        <div class="info-items">
+                            <div class="info-item">
+                                <div class="info-icon"><i class="fa-solid fa-user"></i></div>
+                                <div>
+                                    <h4>Name</h4>
+                                    <p>Rahul Kumar Prajapati</p>
+                                </div>
+                            </div>
+
+                            <div class="info-item">
+                                <div class="info-icon"><i class="fa-solid fa-envelope"></i></div>
+                                <div>
+                                    <h4>Email</h4>
+                                    <p><a href="mailto:rahulkumarprajapati@email.com">rahulkumarprajapati@email.com</a></p>
+                                </div>
+                            </div>
+
+                            <div class="info-item">
+                                <div class="info-icon"><i class="fa-solid fa-school-flag"></i></div>
+                                <div>
+                                    <h4>College Program</h4>
+                                    <p>B.Tech CSE - 2nd Year</p>
+                                </div>
+                            </div>
+
+                            <div class="info-item">
+                                <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+                                <div>
+                                    <h4>Location</h4>
+                                    <p>India</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contact-social-links">
+                            <a href="https://github.com" target="_blank" class="c-social"><i class="fa-brands fa-github"></i> GitHub</a>
+                            <a href="https://linkedin.com" target="_blank" class="c-social"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+                        </div>
+                    </div>
+
+                    <!-- Right: Contact Message Form -->
+                    <div class="contact-form-card">
+                        <h3>Send a Message</h3>
+                        <form id="contactForm" onsubmit="handleFormSubmit(event)">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" placeholder="Enter your full name" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Your Email</label>
+                                <input type="email" id="email" placeholder="Enter your email address" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" placeholder="Project / Query subject" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" rows="4" placeholder="Write your message here..." required></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-block">
+                                <i class="fa-solid fa-paper-plane"></i> Send Message
+                            </button>
+                            
+                            <p id="formStatus" class="form-status"></p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ==============================================
+         8. FOOTER SECTION
+         ============================================== -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-left">
+                <span class="logo">Rahul Kumar Prajapati</span>
+                <p>B.Tech CSE 2nd Year | 1st College Mini Project</p>
+            </div>
+
+            <div class="footer-center">
+                <p>&copy; <span id="currentYear"></span> Rahul Kumar Prajapati. All Rights Reserved.</p>
+                <p class="footer-built">Designed & Developed using <strong>HTML5 & CSS3</strong></p>
+            </div>
+
+            <div class="footer-right">
+                <a href="#home" class="back-to-top" title="Back to top">
+                    <i class="fa-solid fa-arrow-up"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- External JavaScript File for smooth interactions -->
+    <script src="script.js"></script>
+</body>
+</html>
